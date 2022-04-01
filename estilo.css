@@ -1,14 +1,11 @@
-* {
-    box-sizing: border-box;
+* { box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
     overflow: hidden;
 }
-
 body {
     background-color: black;
-   
 }
 
 .container, .saber-mais, .container-pontuacao{
@@ -21,7 +18,6 @@ body {
     max-width: 70%;
     margin: 0 auto;
 }
-
 img {
     display: flex;
     align-items: center;
@@ -30,12 +26,10 @@ img {
     width: 88%;
     max-width: 50%;
 }
-
 #inicio, .menu-autores, .caixa-pontuacao {
     border: 2px solid yellow;
     padding: 10px;
 }
-
 h1 {
     text-align: center;
     font-size: 2.5rem;
@@ -52,16 +46,12 @@ h3 {
     color: white;
     padding: 8px;
 }
-
-/***************** LOCAL(div) COM PERGUNTAS E RESPOSTAS **********/
-
 .container-quiz {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
 .btn-resposta {
     margin: 10px;
     padding: 20px;
@@ -74,42 +64,27 @@ h3 {
     min-width: 50%;
     max-width: 50%;
 }
-
 .btn-resposta:hover {
     cursor: pointer;
     box-shadow: 0 5px 4px white;
     transform: scale(1.04);
 }
-
-/*-------Pontuação--------*/
-
-
-/* AÇAO JS - QDO CLICAR NA ALTERNATIVA CERTA OU ERRADA */
-
-/*Default para voltar a cor padrao das alternativas ao passar a questao*/
-
 .btn-resposta.default {
     background-color: yellow;
     color: black;
 }
-
 .btn-resposta.correto {
     background-color: green;
     color: white;
 }
-
 .btn-resposta.errado {
     background-color: red;
     color: white;
 }
-
-/******************** FIM DO LOCAL *****************************/
-
 .btn {
     display: flex;
     justify-content: center;
 }
-
 .btn-jogar, .btn-reiniciar, .btn-saibamais, .btn-voltar {
     background-color: transparent;
     border: 2px solid yellow;
@@ -123,15 +98,11 @@ h3 {
     width: 33vh;
     margin: 8px;
 }
-
 .btn-jogar:hover, .btn-reiniciar:hover, .btn-saibamais:hover, .btn-voltar:hover {
     cursor: pointer;
     transition: transform 0.5s;
     transform: scale(1.05);
 }
-
-/*********** PARTE DO BOTAO SABER MAIS *************/
-
 h1#bem-vindo {
     color: yellow;
     font-size: 3rem;
@@ -142,53 +113,36 @@ h2 {
     margin: 10px;
     color: green;
 }
-
 p {
     margin: 10px 20px;
     font-size: 25px;
     font-weight: lighter;
 }
-
 .menu-autores ul {
     list-style: none;
 }
-
 .menu-autores ul li {
     text-decoration: none;
     font-size: 20px;
     font-weight: bolder;
     color: white;
 }
-
 .btn-voltar a, .btn-saibamais a {
     text-decoration: none;
     color: white;
 }
-
 @media (max-width: 500px){
     .btn-resposta{
     margin: 5px;
     padding: 10px;
     font-size: 1.1rem;
     }
-    h1 {
-        font-size: 1.8rem;
-    }
+    h1 {font-size: 1.8rem;}
     .btn-jogar, .btn-reiniciar, .btn-saibamais, .btn-voltar{
         font-size: 1.2rem;
     }
-    .btn-voltar{
-        width: 90%;
-    }
-    h1#bem-vindo {
-        font-size: 1.8rem;
-    }
-    
-    h2 {
-        font-size: 1.5rem;
-    }
-    
-    p {
-        font-size: 18px;
-    }
+    .btn-voltar{width: 90%;}
+    h1#bem-vindo {font-size: 1.8rem;}
+    h2 {font-size: 1.5rem;}
+    p {font-size: 18px;}
 }
