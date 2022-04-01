@@ -164,3 +164,31 @@ p {
     text-decoration: none;
     color: white;
 }
+
+@media (max-width: 500px){
+    .btn-resposta{
+    margin: 5px;
+    padding: 10px;
+    font-size: 1.1rem;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    .btn-jogar, .btn-reiniciar, .btn-saibamais, .btn-voltar{
+        font-size: 1.2rem;
+    }
+    .btn-voltar{
+        width: 90%;
+    }
+    h1#bem-vindo {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+}
