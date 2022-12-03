@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="jquery-3.6.0.min.js" defer></script>
+    <script src="quiz.js" defer></script>
+    <link rel="shortcut icon" href="img/play.png">
+    <title>Play Quiz</title>
+</head>
+<body>
+    <section class="container">
+        <div id="inicio">
+            <img src="img/play.png">
+            <div class="container-quiz ">
+                <h1 id="pergunta">Questão</h1>
+                <h3>Choose the correct answer:
+                </h3>
+                <button type="button" class="btn-resposta" id="btn-r0">1</button>
+                <button type="button" class="btn-resposta" id="btn-r1">2</button>
+                <button type="button" class="btn-resposta" id="btn-r2">3</button>
+                <button type="button" class="btn-resposta" id="btn-r3">4</button>
+            </div>
+            <audio id="certo" src="img/right.mp3"></audio>
+            <audio id="error" src="img/fail.mp3"></audio>
+            <div class="btn">
+                <button class="btn-jogar">Play</button>
+                <button class="btn-reiniciar">Restart</button>
+                <button class="btn-saibamais"><a href="#saber-mais">More</a></button>
+            </div>
+        <p>&#169 Create by Fernanda Borges</p>
+
+        </div>
+    </section>
+    <!------------Pontuação--------------->
+    <section class="container-pontuacao">
+        <div class="caixa-pontuacao">
+            <h1>Your Score!</h1>
+            <p id="pontuacaof">0</p>
+            <button class="btn-reiniciar">Restart</button>
+            <button class="btn-saibamais"><a href="#saber-mais">More</a></button>
+        </div>
+    </section>
+    <!------------------>
+    <section class="saber-mais">
+        <div class="menu-autores">
+            <ul>
+                <li>
+                    <h1 id="bem-vindo">Welcome to Play Quiz!</h1>
+                </li>
+                <li>
+                    <h2>How to play?</h2>
+                    <p>Click to play, read the question e then choose the correct answer </p>
+                </li>
+                <li>
+                    <h2>Create by:</h2>
+                    <p>Fernanda Borges</p>
+                </li>
+            </ul>
+            <button class="btn-voltar"><a href="#container">Back</a></button>
+        </div>
+    </section>
+</body>
+
+</html>
