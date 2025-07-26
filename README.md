@@ -1,14 +1,54 @@
-## Jogo: PlayQuiz
-<h2>Que jogo é esse?</h2>
-<img src="https://user-images.githubusercontent.com/91858227/205520215-0e28c8c0-a0da-42b7-b13a-551aaa9e1c95.png" width="500px"/>
-<p>Jogo de perguntas e respostas, onde há cinco questões, cada qual, com quatro alternativas.</p>
-<img src="https://user-images.githubusercontent.com/91858227/205520307-015e8869-23af-42aa-a659-cc03122803ca.png" width="500px"/>
-<p>O usuário ao acertar a alternativa correta, acumula pontos, caso contrário, os pontos não é adicionado na pontuação final. </p>
-<img src="https://user-images.githubusercontent.com/91858227/205520452-21963d49-abac-4ec0-9601-4f0f5d379d7a.png" width="500px"/>
+# 🎮 Jogo: Play Quiz – Desafio de Perguntas e Respostas
 
-<h2>Desenvolvimento</h2>
-<p>Esse jogo foi desenvolvido com HTML5, CSS3 e JavaScript com framework JQuery. Além disso, este jogo conta com um API que nos traz as cincos questões com suas
-respectivas alternativas.</p>
-<p>Obs: O jogo está em inglês por não se ter encontrado uma API adequada em português</p>
-<h3>Você pode tentar jogar PlayQuiz no link abaixo:</h3>
-<p> https://play-quiz-fbb.netlify.app</p>
+**Play Quiz** é um jogo interativo de perguntas e respostas desenvolvido com **HTML5**, **CSS3**, **JavaScript** e **jQuery**, com integração a uma **API pública de perguntas** que retorna dados em formato **JSON**. O jogo tem como foco a simplicidade de uso e a dinâmica baseada em pontuação por acertos.
+
+> 📌 **Observação**: O jogo está em **inglês**, pois não foi encontrada uma API adequada com suporte em português.
+
+##  Como funciona o jogo
+
+1. O jogador clica em **Iniciar Jogo**.
+2. A aplicação busca uma nova pergunta com alternativas via **requisição GET** a uma API externa.
+3. O jogador escolhe uma das alternativas exibidas.
+4. A cada acerto:
+   - 🟢 Ganha **+250 pontos**
+5. A cada erro:
+   - 🔴 Recebe **0 pontos**
+6. O jogo segue até o jogador vencer ou decidir reiniciar.
+7. A cada reinício ou fim de jogo, novas perguntas são carregadas, **tornando a experiência única e desafiadora**.
+
+## Tecnologias Utilizadas
+
+- **HTML5** – Estrutura da interface
+- **CSS3** – Estilização visual e responsividade
+- **JavaScript** – Lógica principal do jogo
+- **jQuery** – Manipulação do DOM e requisição à API
+- **API pública de perguntas** – Integração para obter perguntas atualizadas (em inglês)
+
+## Funcionalidades principais
+
+- Interface amigável e de fácil uso
+- Feedback instantâneo após cada resposta
+- Sistema de pontuação dinâmica baseado em acertos
+- Requisições via **GET** com tratamento de **JSON**
+- Transição sonora entre perguntas com feedback de sucesso ou falha
+- Reinício automático com novas perguntas
+- Responsivo para diferentes tamanhos de tela
+
+## Pré-visualização
+<img width="808" height="644" alt="image" src="https://github.com/user-attachments/assets/d023ed30-73af-4860-b481-90b6de7f697c" />
+<img width="882" height="763" alt="image" src="https://github.com/user-attachments/assets/17121014-c2ad-444b-92f8-1c49eeb65a0c" />
+<img width="882" height="763" alt="image" src="https://github.com/user-attachments/assets/46265c2d-dc1b-4e4d-bf68-c94658b89e21" />
+<img width="718" height="362" alt="image" src="https://github.com/user-attachments/assets/ca8c02f8-b13b-496f-b4ac-e9a5a0327a5d" />
+
+## Como executar o jogo
+### Acesso online por meio do link abaixo
+```bash
+https://play-quiz-fbb.netlify.app/
+```
+### Clonar localmente
+```bash
+git clone https://github.com/fernanda-borg3s/play-quiz-game.git
+cd play-quis-game
+```
+
+
