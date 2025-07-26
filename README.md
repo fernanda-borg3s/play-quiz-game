@@ -37,7 +37,6 @@
 ## Pré-visualização
 <img width="808" height="644" alt="image" src="https://github.com/user-attachments/assets/d023ed30-73af-4860-b481-90b6de7f697c" />
 <img width="882" height="763" alt="image" src="https://github.com/user-attachments/assets/17121014-c2ad-444b-92f8-1c49eeb65a0c" />
-<img width="882" height="763" alt="image" src="https://github.com/user-attachments/assets/46265c2d-dc1b-4e4d-bf68-c94658b89e21" />
 <img width="718" height="362" alt="image" src="https://github.com/user-attachments/assets/ca8c02f8-b13b-496f-b4ac-e9a5a0327a5d" />
 
 ## Como executar o jogo
