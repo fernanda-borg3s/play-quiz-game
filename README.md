@@ -42,12 +42,12 @@
 ## Como executar o jogo
 ### Acesso online por meio do link abaixo
 ```bash
-https://play-quiz-fbb.netlify.app/
+https://fernanda-borg3s.github.io/play-quiz-game/
 ```
 ### Clonar localmente
 ```bash
 git clone https://github.com/fernanda-borg3s/play-quiz-game.git
-cd play-quis-game
+cd play-quiz-game
 ```
 
 
